@@ -1,5 +1,5 @@
   
-![][tabelka.png]
+![tabelka][./tabelka.png]
 
 Wygenerowałem trzy 300000 elementowe tablice zgodnie z treścią zadania. Zakres liczb dla losowej tablicy to od 0 do 10000.
 
