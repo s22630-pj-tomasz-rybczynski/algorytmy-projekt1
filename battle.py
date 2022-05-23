@@ -33,7 +33,7 @@ def assertion(array1, table_type):
 
 nums = 300000
 
-sorted = list(range(1, nums))
+sorted = list(range(0, nums))
+assertion([random.randint(0, 10000) for _ in range(nums)], "randomowa nieposortowana")
 assertion(sorted[::-1], "odwrotnie posortowana")
 assertion(sorted, "posortowana")
-assertion([random.random() for _ in range(nums)], "randomowa nieposortowana")
